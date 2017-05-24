@@ -1,0 +1,944 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A283F7E1ECB4D2600893675 /* YFShowPartListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A283F7D1ECB4D2600893675 /* YFShowPartListCollectionViewCell.m */; };
+		4A283F811ECB50E600893675 /* YFScrollerBannerCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A283F801ECB50E600893675 /* YFScrollerBannerCollectionReusableView.m */; };
+		4A283F841ECB566F00893675 /* YFContractListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A283F831ECB566F00893675 /* YFContractListViewController.m */; };
+		4A283F871ECB56AB00893675 /* YFContractCollectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A283F861ECB56AB00893675 /* YFContractCollectListViewController.m */; };
+		4A283F8A1ECB998100893675 /* YFContractListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A283F891ECB998100893675 /* YFContractListCollectionViewCell.m */; };
+		4A283F8D1ECB9D4200893675 /* YFMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A283F8C1ECB9D4200893675 /* YFMineViewController.m */; };
+		4A3D648C1EBB50C6009C33E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D648B1EBB50C6009C33E0 /* main.m */; };
+		4A3D648F1EBB50C6009C33E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D648E1EBB50C6009C33E0 /* AppDelegate.m */; };
+		4A3D64971EBB50C6009C33E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3D64961EBB50C6009C33E0 /* Assets.xcassets */; };
+		4A3D649A1EBB50C6009C33E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3D64981EBB50C6009C33E0 /* LaunchScreen.storyboard */; };
+		4A3D64A51EBB50C6009C33E0 /* StoneRoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D64A41EBB50C6009C33E0 /* StoneRoomTests.m */; };
+		4A3D64B01EBB50C6009C33E0 /* StoneRoomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D64AF1EBB50C6009C33E0 /* StoneRoomUITests.m */; };
+		4A3D64D11EBB5415009C33E0 /* YFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D64D01EBB5415009C33E0 /* YFTabBar.m */; };
+		4A3D64D51EBB5612009C33E0 /* YFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D64D41EBB5612009C33E0 /* YFTabBarViewController.m */; };
+		4A3D64D91EBB58D7009C33E0 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D64D81EBB58D7009C33E0 /* UIColor+Hex.m */; };
+		4A3D64DC1EBB5BC3009C33E0 /* YFBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D64DB1EBB5BC3009C33E0 /* YFBaseNavViewController.m */; };
+		4A3D64DF1EBB5F2E009C33E0 /* YFShowProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D64DE1EBB5F2E009C33E0 /* YFShowProductViewController.m */; };
+		4A3D64E21EBB5FAB009C33E0 /* YFShowProductCollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D64E11EBB5FAB009C33E0 /* YFShowProductCollectViewController.m */; };
+		ADB7DA27839D95263E3DE7B2 /* libPods-StoneRoomTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EAFAC81BD9177452821954 /* libPods-StoneRoomTests.a */; };
+		C71D987AED2854CD068741B9 /* libPods-StoneRoomUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5656E3143ECB7C30AEC710 /* libPods-StoneRoomUITests.a */; };
+		CAFA83AF3F8A742DA9408112 /* libPods-StoneRoom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E508DB8694B6401EAE2B6E /* libPods-StoneRoom.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A3D64A11EBB50C6009C33E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3D647F1EBB50C6009C33E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3D64861EBB50C6009C33E0;
+			remoteInfo = StoneRoom;
+		};
+		4A3D64AC1EBB50C6009C33E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3D647F1EBB50C6009C33E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3D64861EBB50C6009C33E0;
+			remoteInfo = StoneRoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33756D16A3949EE69474A019 /* Pods-StoneRoomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoneRoomUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StoneRoomUITests/Pods-StoneRoomUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A283F7C1ECB4D2600893675 /* YFShowPartListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFShowPartListCollectionViewCell.h; sourceTree = "<group>"; };
+		4A283F7D1ECB4D2600893675 /* YFShowPartListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFShowPartListCollectionViewCell.m; sourceTree = "<group>"; };
+		4A283F7F1ECB50E600893675 /* YFScrollerBannerCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFScrollerBannerCollectionReusableView.h; sourceTree = "<group>"; };
+		4A283F801ECB50E600893675 /* YFScrollerBannerCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFScrollerBannerCollectionReusableView.m; sourceTree = "<group>"; };
+		4A283F821ECB566F00893675 /* YFContractListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFContractListViewController.h; sourceTree = "<group>"; };
+		4A283F831ECB566F00893675 /* YFContractListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFContractListViewController.m; sourceTree = "<group>"; };
+		4A283F851ECB56AB00893675 /* YFContractCollectListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFContractCollectListViewController.h; sourceTree = "<group>"; };
+		4A283F861ECB56AB00893675 /* YFContractCollectListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFContractCollectListViewController.m; sourceTree = "<group>"; };
+		4A283F881ECB998100893675 /* YFContractListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFContractListCollectionViewCell.h; sourceTree = "<group>"; };
+		4A283F891ECB998100893675 /* YFContractListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFContractListCollectionViewCell.m; sourceTree = "<group>"; };
+		4A283F8B1ECB9D4200893675 /* YFMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFMineViewController.h; sourceTree = "<group>"; };
+		4A283F8C1ECB9D4200893675 /* YFMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFMineViewController.m; sourceTree = "<group>"; };
+		4A3D64871EBB50C6009C33E0 /* StoneRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoneRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3D648B1EBB50C6009C33E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A3D648D1EBB50C6009C33E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A3D648E1EBB50C6009C33E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A3D64961EBB50C6009C33E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A3D64991EBB50C6009C33E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A3D649B1EBB50C6009C33E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3D64A01EBB50C6009C33E0 /* StoneRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoneRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3D64A41EBB50C6009C33E0 /* StoneRoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoneRoomTests.m; sourceTree = "<group>"; };
+		4A3D64A61EBB50C6009C33E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3D64AB1EBB50C6009C33E0 /* StoneRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoneRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3D64AF1EBB50C6009C33E0 /* StoneRoomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoneRoomUITests.m; sourceTree = "<group>"; };
+		4A3D64B11EBB50C6009C33E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3D64CF1EBB5415009C33E0 /* YFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTabBar.h; sourceTree = "<group>"; };
+		4A3D64D01EBB5415009C33E0 /* YFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTabBar.m; sourceTree = "<group>"; };
+		4A3D64D21EBB5488009C33E0 /* YFDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFDefine.h; sourceTree = "<group>"; };
+		4A3D64D31EBB5612009C33E0 /* YFTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTabBarViewController.h; sourceTree = "<group>"; };
+		4A3D64D41EBB5612009C33E0 /* YFTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTabBarViewController.m; sourceTree = "<group>"; };
+		4A3D64D71EBB58D7009C33E0 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		4A3D64D81EBB58D7009C33E0 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		4A3D64DA1EBB5BC3009C33E0 /* YFBaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFBaseNavViewController.h; sourceTree = "<group>"; };
+		4A3D64DB1EBB5BC3009C33E0 /* YFBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFBaseNavViewController.m; sourceTree = "<group>"; };
+		4A3D64DD1EBB5F2E009C33E0 /* YFShowProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFShowProductViewController.h; sourceTree = "<group>"; };
+		4A3D64DE1EBB5F2E009C33E0 /* YFShowProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFShowProductViewController.m; sourceTree = "<group>"; };
+		4A3D64E01EBB5FAB009C33E0 /* YFShowProductCollectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFShowProductCollectViewController.h; sourceTree = "<group>"; };
+		4A3D64E11EBB5FAB009C33E0 /* YFShowProductCollectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFShowProductCollectViewController.m; sourceTree = "<group>"; };
+		52EAFAC81BD9177452821954 /* libPods-StoneRoomTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StoneRoomTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E508DB8694B6401EAE2B6E /* libPods-StoneRoom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StoneRoom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		633E7578AF3114A78274DB22 /* Pods-StoneRoomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoneRoomTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StoneRoomTests/Pods-StoneRoomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E5656E3143ECB7C30AEC710 /* libPods-StoneRoomUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StoneRoomUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963DA771FD1955B7021AE052 /* Pods-StoneRoomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoneRoomTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StoneRoomTests/Pods-StoneRoomTests.release.xcconfig"; sourceTree = "<group>"; };
+		A675209292458B553181C35C /* Pods-StoneRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoneRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-StoneRoom/Pods-StoneRoom.release.xcconfig"; sourceTree = "<group>"; };
+		AF8B5D273042CED108262175 /* Pods-StoneRoomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoneRoomUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StoneRoomUITests/Pods-StoneRoomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D94BC4202CC5DC52FECF5E42 /* Pods-StoneRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoneRoom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StoneRoom/Pods-StoneRoom.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A3D64841EBB50C6009C33E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFA83AF3F8A742DA9408112 /* libPods-StoneRoom.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3D649D1EBB50C6009C33E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB7DA27839D95263E3DE7B2 /* libPods-StoneRoomTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3D64A81EBB50C6009C33E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71D987AED2854CD068741B9 /* libPods-StoneRoomUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207FA18002E67B281DD4EA4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D94BC4202CC5DC52FECF5E42 /* Pods-StoneRoom.debug.xcconfig */,
+				A675209292458B553181C35C /* Pods-StoneRoom.release.xcconfig */,
+				633E7578AF3114A78274DB22 /* Pods-StoneRoomTests.debug.xcconfig */,
+				963DA771FD1955B7021AE052 /* Pods-StoneRoomTests.release.xcconfig */,
+				AF8B5D273042CED108262175 /* Pods-StoneRoomUITests.debug.xcconfig */,
+				33756D16A3949EE69474A019 /* Pods-StoneRoomUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A3D647E1EBB50C6009C33E0 = {
+			isa = PBXGroup;
+			children = (
+				4A3D64891EBB50C6009C33E0 /* StoneRoom */,
+				4A3D64A31EBB50C6009C33E0 /* StoneRoomTests */,
+				4A3D64AE1EBB50C6009C33E0 /* StoneRoomUITests */,
+				4A3D64881EBB50C6009C33E0 /* Products */,
+				207FA18002E67B281DD4EA4F /* Pods */,
+				A42A8A0554BCD22B01A9D053 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A3D64881EBB50C6009C33E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D64871EBB50C6009C33E0 /* StoneRoom.app */,
+				4A3D64A01EBB50C6009C33E0 /* StoneRoomTests.xctest */,
+				4A3D64AB1EBB50C6009C33E0 /* StoneRoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A3D64891EBB50C6009C33E0 /* StoneRoom */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D64C91EBB5318009C33E0 /* ShowPart */,
+				4A3D64C11EBB5318009C33E0 /* ContractPart */,
+				4A3D64C51EBB5318009C33E0 /* MapPart */,
+				4A3D64BD1EBB52DF009C33E0 /* MinePart */,
+				4A3D64CD1EBB5318009C33E0 /* Tool */,
+				4A3D64CE1EBB536C009C33E0 /* Common */,
+				4A3D648D1EBB50C6009C33E0 /* AppDelegate.h */,
+				4A3D648E1EBB50C6009C33E0 /* AppDelegate.m */,
+				4A3D64D21EBB5488009C33E0 /* YFDefine.h */,
+				4A3D64961EBB50C6009C33E0 /* Assets.xcassets */,
+				4A3D64981EBB50C6009C33E0 /* LaunchScreen.storyboard */,
+				4A3D649B1EBB50C6009C33E0 /* Info.plist */,
+				4A3D648A1EBB50C6009C33E0 /* Supporting Files */,
+			);
+			path = StoneRoom;
+			sourceTree = "<group>";
+		};
+		4A3D648A1EBB50C6009C33E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D648B1EBB50C6009C33E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A3D64A31EBB50C6009C33E0 /* StoneRoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D64A41EBB50C6009C33E0 /* StoneRoomTests.m */,
+				4A3D64A61EBB50C6009C33E0 /* Info.plist */,
+			);
+			path = StoneRoomTests;
+			sourceTree = "<group>";
+		};
+		4A3D64AE1EBB50C6009C33E0 /* StoneRoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D64AF1EBB50C6009C33E0 /* StoneRoomUITests.m */,
+				4A3D64B11EBB50C6009C33E0 /* Info.plist */,
+			);
+			path = StoneRoomUITests;
+			sourceTree = "<group>";
+		};
+		4A3D64BD1EBB52DF009C33E0 /* MinePart */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D64BE1EBB530A009C33E0 /* Controller */,
+				4A3D64BF1EBB530A009C33E0 /* Model */,
+				4A3D64C01EBB530A009C33E0 /* View */,
+			);
+			path = MinePart;
+			sourceTree = "<group>";
+		};
+		4A3D64BE1EBB530A009C33E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A283F8B1ECB9D4200893675 /* YFMineViewController.h */,
+				4A283F8C1ECB9D4200893675 /* YFMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A3D64BF1EBB530A009C33E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A3D64C01EBB530A009C33E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A3D64C11EBB5318009C33E0 /* ContractPart */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D64C21EBB5318009C33E0 /* Controller */,
+				4A3D64C31EBB5318009C33E0 /* Model */,
+				4A3D64C41EBB5318009C33E0 /* View */,
+			);
+			path = ContractPart;
+			sourceTree = "<group>";
+		};
+		4A3D64C21EBB5318009C33E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A283F821ECB566F00893675 /* YFContractListViewController.h */,
+				4A283F831ECB566F00893675 /* YFContractListViewController.m */,
+				4A283F851ECB56AB00893675 /* YFContractCollectListViewController.h */,
+				4A283F861ECB56AB00893675 /* YFContractCollectListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A3D64C31EBB5318009C33E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A3D64C41EBB5318009C33E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A283F881ECB998100893675 /* YFContractListCollectionViewCell.h */,
+				4A283F891ECB998100893675 /* YFContractListCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A3D64C51EBB5318009C33E0 /* MapPart */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D64C61EBB5318009C33E0 /* Controller */,
+				4A3D64C71EBB5318009C33E0 /* Model */,
+				4A3D64C81EBB5318009C33E0 /* View */,
+			);
+			path = MapPart;
+			sourceTree = "<group>";
+		};
+		4A3D64C61EBB5318009C33E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A3D64C71EBB5318009C33E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A3D64C81EBB5318009C33E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A3D64C91EBB5318009C33E0 /* ShowPart */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D64CA1EBB5318009C33E0 /* Controller */,
+				4A3D64CB1EBB5318009C33E0 /* Model */,
+				4A3D64CC1EBB5318009C33E0 /* View */,
+			);
+			path = ShowPart;
+			sourceTree = "<group>";
+		};
+		4A3D64CA1EBB5318009C33E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D64DD1EBB5F2E009C33E0 /* YFShowProductViewController.h */,
+				4A3D64DE1EBB5F2E009C33E0 /* YFShowProductViewController.m */,
+				4A3D64E01EBB5FAB009C33E0 /* YFShowProductCollectViewController.h */,
+				4A3D64E11EBB5FAB009C33E0 /* YFShowProductCollectViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A3D64CB1EBB5318009C33E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A3D64CC1EBB5318009C33E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A283F7C1ECB4D2600893675 /* YFShowPartListCollectionViewCell.h */,
+				4A283F7D1ECB4D2600893675 /* YFShowPartListCollectionViewCell.m */,
+				4A283F7F1ECB50E600893675 /* YFScrollerBannerCollectionReusableView.h */,
+				4A283F801ECB50E600893675 /* YFScrollerBannerCollectionReusableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A3D64CD1EBB5318009C33E0 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D64D61EBB58B5009C33E0 /* classic */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		4A3D64CE1EBB536C009C33E0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D64CF1EBB5415009C33E0 /* YFTabBar.h */,
+				4A3D64D01EBB5415009C33E0 /* YFTabBar.m */,
+				4A3D64D31EBB5612009C33E0 /* YFTabBarViewController.h */,
+				4A3D64D41EBB5612009C33E0 /* YFTabBarViewController.m */,
+				4A3D64DA1EBB5BC3009C33E0 /* YFBaseNavViewController.h */,
+				4A3D64DB1EBB5BC3009C33E0 /* YFBaseNavViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4A3D64D61EBB58B5009C33E0 /* classic */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D64D71EBB58D7009C33E0 /* UIColor+Hex.h */,
+				4A3D64D81EBB58D7009C33E0 /* UIColor+Hex.m */,
+			);
+			path = classic;
+			sourceTree = "<group>";
+		};
+		A42A8A0554BCD22B01A9D053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53E508DB8694B6401EAE2B6E /* libPods-StoneRoom.a */,
+				52EAFAC81BD9177452821954 /* libPods-StoneRoomTests.a */,
+				6E5656E3143ECB7C30AEC710 /* libPods-StoneRoomUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A3D64861EBB50C6009C33E0 /* StoneRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3D64B41EBB50C6009C33E0 /* Build configuration list for PBXNativeTarget "StoneRoom" */;
+			buildPhases = (
+				9F56CFF0C8D1F6B3DAFFDE6E /* [CP] Check Pods Manifest.lock */,
+				4A3D64831EBB50C6009C33E0 /* Sources */,
+				4A3D64841EBB50C6009C33E0 /* Frameworks */,
+				4A3D64851EBB50C6009C33E0 /* Resources */,
+				6A55ECB5A203872AFBAFD8CD /* [CP] Embed Pods Frameworks */,
+				F0419046D5F667F6846B5CBA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoneRoom;
+			productName = StoneRoom;
+			productReference = 4A3D64871EBB50C6009C33E0 /* StoneRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A3D649F1EBB50C6009C33E0 /* StoneRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3D64B71EBB50C6009C33E0 /* Build configuration list for PBXNativeTarget "StoneRoomTests" */;
+			buildPhases = (
+				5F997B56205AEE033344EFB1 /* [CP] Check Pods Manifest.lock */,
+				4A3D649C1EBB50C6009C33E0 /* Sources */,
+				4A3D649D1EBB50C6009C33E0 /* Frameworks */,
+				4A3D649E1EBB50C6009C33E0 /* Resources */,
+				D7CCEA14863D436B17250004 /* [CP] Embed Pods Frameworks */,
+				D945BFC7FD111273F131B0D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3D64A21EBB50C6009C33E0 /* PBXTargetDependency */,
+			);
+			name = StoneRoomTests;
+			productName = StoneRoomTests;
+			productReference = 4A3D64A01EBB50C6009C33E0 /* StoneRoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A3D64AA1EBB50C6009C33E0 /* StoneRoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3D64BA1EBB50C6009C33E0 /* Build configuration list for PBXNativeTarget "StoneRoomUITests" */;
+			buildPhases = (
+				FB9B6864B28C61A4ADC45340 /* [CP] Check Pods Manifest.lock */,
+				4A3D64A71EBB50C6009C33E0 /* Sources */,
+				4A3D64A81EBB50C6009C33E0 /* Frameworks */,
+				4A3D64A91EBB50C6009C33E0 /* Resources */,
+				196B2E6DBEC375252345D6C4 /* [CP] Embed Pods Frameworks */,
+				EE81ECA215FB04DC7ECAF08F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3D64AD1EBB50C6009C33E0 /* PBXTargetDependency */,
+			);
+			name = StoneRoomUITests;
+			productName = StoneRoomUITests;
+			productReference = 4A3D64AB1EBB50C6009C33E0 /* StoneRoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A3D647F1EBB50C6009C33E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YF;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王一凡";
+				TargetAttributes = {
+					4A3D64861EBB50C6009C33E0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 45MEXERZ45;
+						ProvisioningStyle = Automatic;
+					};
+					4A3D649F1EBB50C6009C33E0 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A3D64861EBB50C6009C33E0;
+					};
+					4A3D64AA1EBB50C6009C33E0 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A3D64861EBB50C6009C33E0;
+					};
+				};
+			};
+			buildConfigurationList = 4A3D64821EBB50C6009C33E0 /* Build configuration list for PBXProject "StoneRoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A3D647E1EBB50C6009C33E0;
+			productRefGroup = 4A3D64881EBB50C6009C33E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A3D64861EBB50C6009C33E0 /* StoneRoom */,
+				4A3D649F1EBB50C6009C33E0 /* StoneRoomTests */,
+				4A3D64AA1EBB50C6009C33E0 /* StoneRoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A3D64851EBB50C6009C33E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3D649A1EBB50C6009C33E0 /* LaunchScreen.storyboard in Resources */,
+				4A3D64971EBB50C6009C33E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3D649E1EBB50C6009C33E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3D64A91EBB50C6009C33E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		196B2E6DBEC375252345D6C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StoneRoomUITests/Pods-StoneRoomUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F997B56205AEE033344EFB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A55ECB5A203872AFBAFD8CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StoneRoom/Pods-StoneRoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F56CFF0C8D1F6B3DAFFDE6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7CCEA14863D436B17250004 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StoneRoomTests/Pods-StoneRoomTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D945BFC7FD111273F131B0D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StoneRoomTests/Pods-StoneRoomTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE81ECA215FB04DC7ECAF08F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StoneRoomUITests/Pods-StoneRoomUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0419046D5F667F6846B5CBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StoneRoom/Pods-StoneRoom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB9B6864B28C61A4ADC45340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3D64831EBB50C6009C33E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3D64DF1EBB5F2E009C33E0 /* YFShowProductViewController.m in Sources */,
+				4A283F841ECB566F00893675 /* YFContractListViewController.m in Sources */,
+				4A3D648F1EBB50C6009C33E0 /* AppDelegate.m in Sources */,
+				4A283F811ECB50E600893675 /* YFScrollerBannerCollectionReusableView.m in Sources */,
+				4A3D64D91EBB58D7009C33E0 /* UIColor+Hex.m in Sources */,
+				4A3D64DC1EBB5BC3009C33E0 /* YFBaseNavViewController.m in Sources */,
+				4A283F8A1ECB998100893675 /* YFContractListCollectionViewCell.m in Sources */,
+				4A3D64D51EBB5612009C33E0 /* YFTabBarViewController.m in Sources */,
+				4A3D64E21EBB5FAB009C33E0 /* YFShowProductCollectViewController.m in Sources */,
+				4A3D648C1EBB50C6009C33E0 /* main.m in Sources */,
+				4A283F8D1ECB9D4200893675 /* YFMineViewController.m in Sources */,
+				4A3D64D11EBB5415009C33E0 /* YFTabBar.m in Sources */,
+				4A283F871ECB56AB00893675 /* YFContractCollectListViewController.m in Sources */,
+				4A283F7E1ECB4D2600893675 /* YFShowPartListCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3D649C1EBB50C6009C33E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3D64A51EBB50C6009C33E0 /* StoneRoomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3D64A71EBB50C6009C33E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3D64B01EBB50C6009C33E0 /* StoneRoomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A3D64A21EBB50C6009C33E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3D64861EBB50C6009C33E0 /* StoneRoom */;
+			targetProxy = 4A3D64A11EBB50C6009C33E0 /* PBXContainerItemProxy */;
+		};
+		4A3D64AD1EBB50C6009C33E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3D64861EBB50C6009C33E0 /* StoneRoom */;
+			targetProxy = 4A3D64AC1EBB50C6009C33E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A3D64981EBB50C6009C33E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3D64991EBB50C6009C33E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A3D64B21EBB50C6009C33E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A3D64B31EBB50C6009C33E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A3D64B51EBB50C6009C33E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D94BC4202CC5DC52FECF5E42 /* Pods-StoneRoom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45MEXERZ45;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/StoneRoom/YFDefine.h";
+				INFOPLIST_FILE = StoneRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.developfan.com.StoneRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A3D64B61EBB50C6009C33E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A675209292458B553181C35C /* Pods-StoneRoom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45MEXERZ45;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/StoneRoom/YFDefine.h";
+				INFOPLIST_FILE = StoneRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.developfan.com.StoneRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A3D64B81EBB50C6009C33E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633E7578AF3114A78274DB22 /* Pods-StoneRoomTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StoneRoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.developfan.com.StoneRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoneRoom.app/StoneRoom";
+			};
+			name = Debug;
+		};
+		4A3D64B91EBB50C6009C33E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963DA771FD1955B7021AE052 /* Pods-StoneRoomTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StoneRoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.developfan.com.StoneRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoneRoom.app/StoneRoom";
+			};
+			name = Release;
+		};
+		4A3D64BB1EBB50C6009C33E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8B5D273042CED108262175 /* Pods-StoneRoomUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = StoneRoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.developfan.com.StoneRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StoneRoom;
+			};
+			name = Debug;
+		};
+		4A3D64BC1EBB50C6009C33E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33756D16A3949EE69474A019 /* Pods-StoneRoomUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = StoneRoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.developfan.com.StoneRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StoneRoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A3D64821EBB50C6009C33E0 /* Build configuration list for PBXProject "StoneRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3D64B21EBB50C6009C33E0 /* Debug */,
+				4A3D64B31EBB50C6009C33E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3D64B41EBB50C6009C33E0 /* Build configuration list for PBXNativeTarget "StoneRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3D64B51EBB50C6009C33E0 /* Debug */,
+				4A3D64B61EBB50C6009C33E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3D64B71EBB50C6009C33E0 /* Build configuration list for PBXNativeTarget "StoneRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3D64B81EBB50C6009C33E0 /* Debug */,
+				4A3D64B91EBB50C6009C33E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3D64BA1EBB50C6009C33E0 /* Build configuration list for PBXNativeTarget "StoneRoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3D64BB1EBB50C6009C33E0 /* Debug */,
+				4A3D64BC1EBB50C6009C33E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A3D647F1EBB50C6009C33E0 /* Project object */;
+}
