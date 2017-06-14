@@ -28,7 +28,7 @@ UITableViewDataSource
 }
 #pragma mark - nav
 - (void)initNav{
-        self.title = @"我 的";
+    self.title = @"我 的";
 }
 
 #pragma mark - table
