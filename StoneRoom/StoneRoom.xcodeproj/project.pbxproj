@@ -464,7 +464,7 @@
 					4A3D64861EBB50C6009C33E0 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = HU34BCTTPG;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					4A3D649F1EBB50C6009C33E0 = {
 						CreatedOnToolsVersion = 8.3;
@@ -824,8 +824,8 @@
 			baseConfigurationReference = D94BC4202CC5DC52FECF5E42 /* Pods-StoneRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = HU34BCTTPG;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/StoneRoom/YFDefine.h";
 				INFOPLIST_FILE = StoneRoom/Info.plist;
@@ -833,8 +833,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.StoneRoom.developfan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "425817d4-4cd1-4147-b055-cbc4de60b7a3";
+				PROVISIONING_PROFILE_SPECIFIER = zhengshitangAd;
 			};
 			name = Debug;
 		};
@@ -843,8 +843,8 @@
 			baseConfigurationReference = A675209292458B553181C35C /* Pods-StoneRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = HU34BCTTPG;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/StoneRoom/YFDefine.h";
 				INFOPLIST_FILE = StoneRoom/Info.plist;
@@ -852,8 +852,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.StoneRoom.developfan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "425817d4-4cd1-4147-b055-cbc4de60b7a3";
+				PROVISIONING_PROFILE_SPECIFIER = zhengshitangAd;
 			};
 			name = Release;
 		};
