@@ -463,7 +463,7 @@
 				TargetAttributes = {
 					4A3D64861EBB50C6009C33E0 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 45MEXERZ45;
+						DevelopmentTeam = HU34BCTTPG;
 						ProvisioningStyle = Automatic;
 					};
 					4A3D649F1EBB50C6009C33E0 = {
@@ -824,13 +824,17 @@
 			baseConfigurationReference = D94BC4202CC5DC52FECF5E42 /* Pods-StoneRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 45MEXERZ45;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU34BCTTPG;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/StoneRoom/YFDefine.h";
 				INFOPLIST_FILE = StoneRoom/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.developfan.com.StoneRoom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StoneRoom.developfan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -839,13 +843,17 @@
 			baseConfigurationReference = A675209292458B553181C35C /* Pods-StoneRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 45MEXERZ45;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU34BCTTPG;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/StoneRoom/YFDefine.h";
 				INFOPLIST_FILE = StoneRoom/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.developfan.com.StoneRoom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StoneRoom.developfan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

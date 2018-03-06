@@ -53,7 +53,7 @@ YFShowProductCollectViewControllerDelegate
     titleLb = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 120, 44)];
     titleLb.font = [UIFont boldSystemFontOfSize:17];
     titleLb.textColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:0];
-    titleLb.text = @"产 品";
+    titleLb.text = @"产品";
     titleLb.textAlignment = NSTextAlignmentCenter;
     self.navigationItem.titleView = titleLb;
     //创建左边的导航栏按钮
