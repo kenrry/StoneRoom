@@ -4,7 +4,7 @@ SCHEMENAME=StoneRoom
 BRANCHNAME=master
 
 DATE=`date +%Y%m%d_%H%M`
-SOURCEPATH=`pwd`/StoneRoom
+SOURCEPATH=`pwd`
 ADHOCExportOptionsPlist=$SOURCEPATH/ADHOCExportOptionsPlist.plist
 ARCHIVEPATH=$SOURCEPATH/archive/$SCHEMENAME.xcarchive
 IPAPATH=$SOURCEPATH/AutoBuildIPA/$BRANCHNAME/$DATE
