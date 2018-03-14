@@ -11,7 +11,7 @@ AppStoreExportOptionsPlist=${AppStoreExportOptionsPlist}
 EnterpriseExportOptionsPlist=${EnterpriseExportOptionsPlist}
 
 DATE=`date +%Y%m%d_%H%M`
-SOURCEPATH="/Users/wangyifan495/Desktop/杂记/StoneRoom/StoneRoom"
+SOURCEPATH=`pwd`
 ARCHIVEPATH=$SOURCEPATH/archive/$SCHEMENAME.xcarchive
 IPAPATH=$SOURCEPATH/AutoBuildIPA/$BRANCHNAME/$DATE
 
