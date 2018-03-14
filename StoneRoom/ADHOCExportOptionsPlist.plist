@@ -7,8 +7,6 @@
 		<key>com.StoneRoom.developfan</key>
 		<string>zhengshitangAd</string>
 	</dict>
-	<key>teamID</key>
-	<string>HU34BCTTPG</string>
 	<key>method</key>
 	<string>ad-hoc</string>
 	<key>compileBitcode</key>
