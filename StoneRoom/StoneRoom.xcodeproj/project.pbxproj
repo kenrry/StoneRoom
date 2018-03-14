@@ -824,6 +824,7 @@
 			baseConfigurationReference = D94BC4202CC5DC52FECF5E42 /* Pods-StoneRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: wang yifan (HU34BCTTPG)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: wang yifan (HU34BCTTPG)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = HU34BCTTPG;
@@ -843,6 +844,7 @@
 			baseConfigurationReference = A675209292458B553181C35C /* Pods-StoneRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: wang yifan (HU34BCTTPG)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: wang yifan (HU34BCTTPG)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = HU34BCTTPG;
