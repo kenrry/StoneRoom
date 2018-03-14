@@ -2,9 +2,9 @@
 SCHEMENAME=StoneRoom
 #项目的分支
 BRANCHNAME=master
-ADHOCExportOptionsPlist=./ADHOCExportOptionsPlist.plist
-AppStoreExportOptionsPlist=./AppStoreExportOptionsPlist.plist
-EnterpriseExportOptionsPlist=./EnterpriseExportOptionsPlist.plist
+ADHOCExportOptionsPlist=`pwd`/StoneRoom/ADHOCExportOptionsPlist.plist
+AppStoreExportOptionsPlist=`pwd`/StoneRoom/AppStoreExportOptionsPlist.plist
+EnterpriseExportOptionsPlist=`pwd`/StoneRoom/EnterpriseExportOptionsPlist.plist
 
 ADHOCExportOptionsPlist=${ADHOCExportOptionsPlist}
 AppStoreExportOptionsPlist=${AppStoreExportOptionsPlist}
