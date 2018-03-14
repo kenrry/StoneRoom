@@ -2,16 +2,10 @@
 SCHEMENAME=StoneRoom
 #项目的分支
 BRANCHNAME=master
-ADHOCExportOptionsPlist=`pwd`/StoneRoom/ADHOCExportOptionsPlist.plist
-AppStoreExportOptionsPlist=`pwd`/StoneRoom/AppStoreExportOptionsPlist.plist
-EnterpriseExportOptionsPlist=`pwd`/StoneRoom/EnterpriseExportOptionsPlist.plist
-
-ADHOCExportOptionsPlist=${ADHOCExportOptionsPlist}
-AppStoreExportOptionsPlist=${AppStoreExportOptionsPlist}
-EnterpriseExportOptionsPlist=${EnterpriseExportOptionsPlist}
 
 DATE=`date +%Y%m%d_%H%M`
 SOURCEPATH=`pwd`/StoneRoom
+ADHOCExportOptionsPlist=$SOURCEPATH/ADHOCExportOptionsPlist.plist
 ARCHIVEPATH=$SOURCEPATH/archive/$SCHEMENAME.xcarchive
 IPAPATH=$SOURCEPATH/AutoBuildIPA/$BRANCHNAME/$DATE
 
